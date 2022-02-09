@@ -1,0 +1,26 @@
+Package: jfnfldatatools
+Type: Package
+Title: NFL Data Tools
+Version: 0.1.0
+Author: Justin Frisby
+Maintainer: The package maintainer <justin.frisby@students.jefferson.edu>
+Description: This package has currently one function but there is more to come in future
+  versions! The current function in the package allows users to retrieve NFL data based on the 
+  many parameters of NFL data. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr (>= 1.0.6),
+    purrr (>= 0.3.4),
+    magrittr(>= 2.0.1),
+    ggplot2 (>= 3.3.2),
+    tibble (>= 3.1.2),
+    nflfastR(>= 3.2.0),
+    tidyverse(>= 1.3.0),
+    rlang(>= 0.4.11),
+    ggimage(>= 0.2.8),
+    readr (>= 1.4.0)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
